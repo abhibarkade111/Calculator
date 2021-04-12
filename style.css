@@ -52,6 +52,9 @@ input{
         background-color: black;
         color: white;
     }
+    input{
+    width: 21rem;
+    }
 }
 @media (min-width: 500px){
     input{
