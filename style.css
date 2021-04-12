@@ -49,7 +49,7 @@ input{
 
 @media (max-width: 500px){
     body{
-        
+        background-color: black;
         color: white;
     }
     input{
