@@ -8,8 +8,8 @@ for(item of buttons){
       console.log('button text is',buttonText); 
       if(buttonText=='X'){
         buttonText='*';
-        screenValue+=buttonText;
-        screen.value=screenValue;
+        screen.value+=buttonText;
+        screenValue=screen.value;
 
       }
       else if(buttonText=='C'){
@@ -18,9 +18,9 @@ for(item of buttons){
       }
       else if(buttonText=='del'){
        
-        screenValue=screenValue.substring(0,screenValue. length -1);   
+        screen.value=screen.value.substring(0,screen.value. length -1);   
           
-          screen.value=screenValue;
+          screenValue=screen.value;
 
       }
       else if(buttonText=='='){
