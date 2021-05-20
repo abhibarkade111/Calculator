@@ -24,7 +24,7 @@ for(item of buttons){
 
       }
       else if(buttonText=='='){
-          buttonText='enter';
+         
         screen.value=eval(screenValue);
 
       }
